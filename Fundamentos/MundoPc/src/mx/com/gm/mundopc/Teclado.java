@@ -7,11 +7,11 @@ package mx.com.gm.mundopc;
 public class Teclado extends DispositivoEntrada {
 
     private final int idTeclado;
-    private static int contadorTeclado;
+    private static int contadorTeclados;
 
     public Teclado(String tipoEntrada, String marca) {
         super(tipoEntrada, marca);
-        this.idTeclado = ++Teclado.contadorTeclado;
+        this.idTeclado = ++Teclado.contadorTeclados;
     }
 
     @Override
