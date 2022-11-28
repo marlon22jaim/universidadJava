@@ -11,11 +11,16 @@ package holamundojava;
  */
 public class HolaMundoJava {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String args[]) {
+        System.out.println("Holis");
+
+        int miVariableEntera = 10;
+        System.out.println(miVariableEntera);
+
+        miVariableEntera = 5;
+        System.out.println(miVariableEntera);
+
+        String miVariableCadena = "Saludos";
+
     }
-    
 }
